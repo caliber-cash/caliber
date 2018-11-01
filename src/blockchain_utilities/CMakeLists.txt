@@ -184,7 +184,7 @@ target_link_libraries(blockchain_blackball
 
 set_property(TARGET blockchain_blackball
 	PROPERTY
-	OUTPUT_NAME "caliber-blockchain-blackball")
+	OUTPUT_NAME "caliber-blockchain-mark-spent-outputs")
 install(TARGETS blockchain_blackball DESTINATION bin)
 
 
@@ -250,4 +250,3 @@ set_property(TARGET blockchain_depth
 	PROPERTY
 	OUTPUT_NAME "caliber-blockchain-depth")
 install(TARGETS blockchain_depth DESTINATION bin)
-
